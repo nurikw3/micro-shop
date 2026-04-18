@@ -3,8 +3,8 @@ from sqlalchemy.ext.asyncio import AsyncSession
 
 from core.models import db_helper
 from . import crud
-from .schemas import Product, ProductCreate, ProductUpdate, ProductUpdatePartial
 from .dependecies import product_by_id
+from .schemas import Product, ProductCreate, ProductUpdate, ProductUpdatePartial
 
 router = APIRouter(tags=["products"])
 
